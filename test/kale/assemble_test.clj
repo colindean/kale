@@ -88,8 +88,8 @@
        "[Running command 'kale create cluster turtle-cluster --wait']" new-line
        "nil" new-line
        "[Running command 'kale create solr-configuration " create-config-args
-       "']" new-line "nil" new-line
-       "[Running command 'kale create collection turtle-collection']"
+       " --retry']" new-line "nil" new-line
+       "[Running command 'kale create collection turtle-collection --retry']"
        new-line "nil" new-line))
 
 (deftest assemble-prepackaged-config
